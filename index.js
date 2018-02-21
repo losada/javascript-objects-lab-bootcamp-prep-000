@@ -19,6 +19,3 @@ function deleteFromObjectByKey(recipes, meal){
   return recipes
 }
 
-function deleteFromObjectByKey(recipes, meal){
-  var newIngredients = Object.assign({}, recipes,{[meal]: ingredient})
-}
