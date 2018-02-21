@@ -20,6 +20,7 @@ function deleteFromObjectByKey(recipes, meal){
 }
 
 function destructivelyDeleteFromObjectByKey(recipe, meal){
+  var ingredient = {meal: "ingredient"}
   delete recipe.meal;
   return recipe;
 }
