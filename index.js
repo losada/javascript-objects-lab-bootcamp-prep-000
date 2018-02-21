@@ -9,5 +9,5 @@ function updateObjectWithKeyAndValue(recipes, meal, ingredient) {
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(recipes, meal, ingredient){
-  
+  recipes[meal:ingredient]
 }
